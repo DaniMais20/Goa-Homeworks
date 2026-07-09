@@ -39,3 +39,13 @@ asaki = "16"
 print(feri)
 print(saxeli)
 print (asaki)
+
+
+Color = "Black"
+name = "Saba"
+age = "16"
+
+
+print(color)
+print(name)
+print(age)
