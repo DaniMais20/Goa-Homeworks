@@ -24,10 +24,10 @@ print(Gun)
 
 #Fixing errors 
 
-firstname = "Saba"
+first_name = "Saba"
 age = 16
 country = "Tbilisi"
-print (firstname)
+print (first_name)
 print (age)
 print (country) 
 
