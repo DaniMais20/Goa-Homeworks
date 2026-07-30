@@ -1,12 +1,45 @@
-x = 5
-print(x > 3 and x < 10)  # დაგვიბრუნებს True-ს, რადგან ორივე პირობა სწორია And"
+age_input = input("enter your age:")
+age = int(age_input)
+
+if age > 0:
+    print("users age is positive ")
+else: 
+    print("your age is positive")
+    
 
 
 
-x = 5
-print(x > 10 or x < 6)  # დაგვიბრუნებს True-ს, რადგან x < 6 სწორია OR"
 
 
 
-x = 5
-print(not(x > 3))  # დაგვიბრუნებს False-ს, რადგან x > 3 არის True
+
+
+Days = ["monday", "tuesday", "wendsday", "thursday", "friday", "saturday", "sunday"]
+
+index = input("enter index number: ")
+
+index = int(index)
+
+if 0 <= index <= 7: 
+    print(Days[index])
+
+
+
+
+
+
+Elements = [ 2.5, "String", 15, True, False, 10.5, 20.5, "Water", "Food", 40, 100, 200, "Bottle", 14, "Color" ]
+
+number = 0
+
+for element in Elements: 
+    number += 1 
+
+print("Total elements in list")
+
+
+numbers = [22, 43, 12, 5, 100, 25, 49, 86, 37, 72]
+
+for index, number in enumerate(numbers):
+    if number % 2== 0:
+        print(index)
