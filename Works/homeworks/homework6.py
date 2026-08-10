@@ -16,8 +16,21 @@ for i in range(50):
 
 
 
-number = int(input("Enter a number: "))
-name = input("Enter your name: ")
+number = int(input("enter number: "))
+name = input("enter name: ")
 
 for i in range(1, number + 1):
     print(name, "=", i)
+
+
+
+
+
+number = int(input("enter a number: "))
+
+product = 1
+
+for i in range(1, number + 1):
+    product *= i
+
+print("product =", product)

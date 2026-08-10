@@ -61,7 +61,7 @@ else:
 
 
 
-CORRECT_PASSWORD = "python123"  # You can change the correct password here
+CORRECT_PASSWORD = "python123" 
 attempts = 3
 
 while attempts > 0:
@@ -76,4 +76,4 @@ while attempts > 0:
             print("Incorrect password! Attempts remaining: " + str(attempts))
 
 if attempts == 0:
-    print("Attempts limit reached. Access denied!")
+    print("Attempt limit reached. Access denied!")

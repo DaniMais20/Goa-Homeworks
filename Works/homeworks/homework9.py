@@ -57,11 +57,12 @@ while i >= 1:
     i -= 1
 
 
-fruits = ["Apple", "Banana", "Orange", "Grapes", "Mango", "Kiwi"]
+fruits = ["apple", "banana", "orange", "grapes", "mango", "kiwi"]
 
-print(fruits[0])   # First element
-print(fruits[-1])  # Last element
-print(fruits[2])   # Third element
+print(fruits[0])   
+print(fruits[-1])  
+print(fruits[2])   
+
 
 
 

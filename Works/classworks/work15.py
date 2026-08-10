@@ -49,7 +49,7 @@ print(len(animals))
 
 
 
-# sort - sorts the number in ascend order
+# sort - sorts the number in ascend order and sorts words alphabetically 
 numbers = [5, 2, 8, 1]
 numbers.sort()
 print(numbers)
@@ -59,3 +59,27 @@ print(numbers)
 fruits = ["c", "a", "b"]
 fruits.sort()
 print(fruits)
+
+
+# remove - removes the first one thats in line works with strings removes the first time it sees the set string
+
+numbers = [10, 20, 30, 20]
+numbers.remove(20)
+print(numbers)
+
+colors = ["red", "green", "blue"]
+colors.remove("green")
+print(colors)
+
+
+
+#reverse - reverses the order in the list and worsk the same with words
+
+numbers = [1, 2, 3, 4]
+numbers.reverse()
+print(numbers)
+
+
+animals = ["dog", "cat", "bird"]
+animals.reverse()
+print(animals)
