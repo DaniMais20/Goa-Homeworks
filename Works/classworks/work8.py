@@ -45,6 +45,3 @@ while correct == False:
         correct = True
 
 print("access Granted")
-
-
-

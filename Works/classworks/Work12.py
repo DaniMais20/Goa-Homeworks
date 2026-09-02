@@ -35,5 +35,5 @@ for number in numbers:
     else:
         negative_sum += number
 
-print("Sum of positive numbers:", positive_sum)
-print("Sum of negative numbers:", negative_sum)
+print("sum of positive numbers:", positive_sum)
+print("sum of negative numbers:", negative_sum)

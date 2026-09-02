@@ -2,7 +2,7 @@ names = ["zuka", "vato", "dani", "nika", "alex"]
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-mixed = ["Hello", 25, 3.14, True, None]
+mixed = ["Hello", 25, 3.14, True,]
 
 
 # indexing is a accessing elements in a list by their position

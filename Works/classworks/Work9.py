@@ -43,30 +43,3 @@ for i in range(10):
             print("the number is neither positive nor even")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
